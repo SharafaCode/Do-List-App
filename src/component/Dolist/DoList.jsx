@@ -5,18 +5,18 @@ import './dolist.css';
 import image from '../../assets/undraw_To_do_list_re_9nt7-removebg-preview (1).png'
 import { useEffect } from 'react';
 
-const LocalStorage = () =>{
-  let list = localStorage.getItem('list');
+// const LocalStorage = () =>{
+//   let list = localStorage.getItem('list');
 
-  if(list){
-    return JSON.parse(localStorage.getItem('list'))
-  }
+//   if(list){
+//     return JSON.parse(localStorage.getItem('list'))
+//   }
 
-  else{
-    return [];
-  } 
+//   else{
+//     return [];
+//   } 
   
-}
+// }
 
 const DoList = () => {
 
@@ -104,10 +104,10 @@ const DoList = () => {
 
   }
 
-  useEffect(()=>{
-    localStorage.setItem('list', JSON.stringify('list'))
+  // useEffect(()=>{
+  //   localStorage.setItem('list', JSON.stringify('list'))
 
-  }, [list])
+  // }, [list])
 
   return (
 
