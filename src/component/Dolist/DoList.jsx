@@ -3,7 +3,7 @@ import Alert from './Alert.jsx';
 import List from './List'
 import './dolist.css';
 import image from '../../assets/undraw_To_do_list_re_9nt7-removebg-preview (1).png'
-import { useEffect } from 'react';
+
 
 // const LocalStorage = () =>{
 //   let list = localStorage.getItem('list');
